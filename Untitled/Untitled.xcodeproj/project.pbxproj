@@ -1,0 +1,80 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXFileReference section */
+		E147CF9B138F54AD00B7D2D0 /* barcode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = barcode.c; path = ../barcode.c; sourceTree = SOURCE_ROOT; };
+		E147CF9E138F54C000B7D2D0 /* barcode.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = barcode.php; path = ../barcode.php; sourceTree = SOURCE_ROOT; };
+		E147CF9F138F54C000B7D2D0 /* php_barcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = php_barcode.h; path = ../php_barcode.h; sourceTree = SOURCE_ROOT; };
+		E147CFA2138F559700B7D2D0 /* config.m4 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = config.m4; path = ../config.m4; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		E147CF90138F549C00B7D2D0 = {
+			isa = PBXGroup;
+			children = (
+				E147CF9E138F54C000B7D2D0 /* barcode.php */,
+				E147CF9F138F54C000B7D2D0 /* php_barcode.h */,
+				E147CF9B138F54AD00B7D2D0 /* barcode.c */,
+				E147CFA2138F559700B7D2D0 /* config.m4 */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		E147CF92138F549C00B7D2D0 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = E147CF95138F549C00B7D2D0 /* Build configuration list for PBXProject "Untitled" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = E147CF90138F549C00B7D2D0;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		E147CF93138F549C00B7D2D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		E147CF94138F549C00B7D2D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E147CF95138F549C00B7D2D0 /* Build configuration list for PBXProject "Untitled" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E147CF93138F549C00B7D2D0 /* Debug */,
+				E147CF94138F549C00B7D2D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E147CF92138F549C00B7D2D0 /* Project object */;
+}

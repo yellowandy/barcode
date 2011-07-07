@@ -1,0 +1,13 @@
+// $Id$
+// vim:ft=javascript
+
+// If your extension references something external, use ARG_WITH
+// ARG_WITH("barcode", "for barcode support", "no");
+
+// Otherwise, use ARG_ENABLE
+// ARG_ENABLE("barcode", "enable barcode support", "no");
+
+if (PHP_BARCODE != "no") {
+	EXTENSION("barcode", "barcode.c");
+}
+
